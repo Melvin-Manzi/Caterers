@@ -2,7 +2,7 @@ public abstract class Booking {
     private String customerName;
     private String eventDate;
     private int numberOfGuests;
-
+    
     public Booking(String customerName, String eventDate, int numberOfGuests) {
         this.customerName = customerName;
         this.eventDate = eventDate;
